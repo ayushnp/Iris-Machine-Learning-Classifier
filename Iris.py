@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 from sklearn.ensemble import RandomForestClassifier
 
-data=pd.read_csv(r"C:\AYUSH N P\data science course\Machine learning\Iris-train.csv")
+data=pd.read_csv(r"https://github.com/ayushnp/Iris-Machine-Learning-Classifier/blob/main/Iris-train.csv")
 print(data.head())
 
 x = data.iloc[:,1:-1]
